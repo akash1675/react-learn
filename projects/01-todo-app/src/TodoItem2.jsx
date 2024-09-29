@@ -1,15 +1,13 @@
-
 function TodoItem2() {
-    return <div class="container text-center">
-        <div class="row">
-            <div class="col-6">
-                buy milk
-            </div>
-            <div class="col-4">
-                10/08/24
-            </div>
+    let todoName = "buy milk";
+    let todoDate = "10/09/2024";
+
+    return <div class="container">
+        <div class="row row1">
+            <div class="col-6">{todoName}</div>
+            <div class="col-4">{todoDate}</div>
             <div class="col-2">
-                <button type="button" class="btn btn-danger">Delete</button>
+                <button type="button " class="btn btn-danger button1">Delete</button>
             </div>
         </div>
     </div>
