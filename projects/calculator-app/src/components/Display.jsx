@@ -6,6 +6,7 @@ const Display = () => {
        <input className={styles.display} type="text" />
        
     )
+
 }
 
 export default Display;
